@@ -121,6 +121,7 @@
 		</div>
 		<a href="./" class="btn" id="goBack">Go back</a>
 		<?php } } ?>
+		<h3><b>NOTE: PLEASE DO NOT USE IT FOR ILLEGAL PURPOSES, I WILL NOT BE HELD RESPONSIBLE FOR IT. ONLY YOU ARE RESPONSIBLE FOR THE THINGS YOU DO.</b></h3>
 	</div>
 </body>
 </html>
