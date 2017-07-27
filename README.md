@@ -1,6 +1,6 @@
 # SmartText
 Protect your messages with 256-bit encryption.
-# [Demo](http://muzzammil.xyz/smarttext)
+# [Demo](http://muzzammil.xyz/smarttext/?github)
 # Encryption
 Smart Text uses AES-complaint, RIJNDAEL 256 bit encryption/decryption with php_mcrypt with CBC. Its open source and can be adjusted as needed.
 # The 2-Passwords system
