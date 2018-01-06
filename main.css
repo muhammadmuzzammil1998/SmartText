@@ -1,0 +1,145 @@
+/*
+ * Licensed under MIT License by (c) Muhammad Muzzammil 2017 (http://muzzammil.xyz/)
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this 
+ * software and associated documentation files (the "Software"), to deal in the Software 
+ * without restriction, including without limitation the rights to use, copy, modify, 
+ * merge, publish, distribute, sublicense, and/or sell copies of the Software, and to 
+ * permit persons to whom the Software is furnished to do so, subject to the following 
+ * conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all copies 
+ * or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+ * INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+ * PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE 
+ * FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR 
+ * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+ * DEALINGS IN THE SOFTWARE.
+*/
+*{
+	margin: 0;
+}
+@font-face {
+ font-family:Raleway;
+ src: url(Raleway-ExtraLight.ttf);
+}
+body{
+	background-color: rgb(245,245,245);
+	padding-left: 10%;
+	padding-right: 25%;
+	word-break: break-word;
+	font-family: Raleway;
+	background-image: url("bg.jpg");
+	font-size: 1000%;
+}
+.octo-right{
+	font-size: 0%;
+}
+form{
+	font-size: 35%;
+	font-family: Raleway !important;
+}
+form textarea{
+	width: 100%;
+	height: 300px;
+	font-size: 75%;
+	font-family: Raleway !important;
+}
+.text{
+	border-color: transparent;
+	transition: all 0.5s;
+}
+.text:focus{
+	box-shadow: 0 4px 10px 0 rgba(113, 113, 113, 1);
+}
+.text:active{
+	box-shadow: 0 4px 10px 0 rgba(113, 113, 113, 0.4);
+}
+form input[type="password"]{
+	font-size: 75%;
+}
+form input[type="submit"]{
+	float: right;
+}
+.btn{
+	font-size: 29%;
+	background-color: rgb(0, 0, 0);
+	color: whitesmoke;
+	cursor: pointer;
+	border: none;
+	text-decoration: none !important;
+	font-family: Raleway !important;
+	padding: 10px;
+	border-bottom: 0px solid transparent;
+	box-shadow: 0 4px 10px 0 rgba(113, 113, 113, 0.4);
+	margin-right: 1%;
+	transition: all 0.5s;
+}
+#head{
+	margin: 1%;
+}
+.btn:hover{
+	color: black;
+	background-color: transparent;
+	border-bottom: 5px solid black;
+	box-shadow: none;
+}
+#encryptBTN, #decryptBTN{
+	font-size: 85% !important;
+}
+.warn{
+	color: white;
+	background-color: red;
+	font-family: monospace;
+}
+#encrypted, #decrypted{
+	padding-left: 5%;
+	padding-bottom: 10%;
+}
+#messageBody{
+	font-family: monospace;
+}
+#green{
+	background-color: green;
+	padding: 3px;
+	color: white;
+}
+#red{
+	background-color: red;
+	padding: 3px;
+	color: white;
+}
+h1{
+	font-size: 30%;
+}
+h2{
+	font-size: 20%;
+	padding: 5%;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	margin: 2%;
+	box-shadow: 0 8px 16px 0px rgba(13, 13, 13, 0.5);
+}
+h3{
+	font-size: 15%;
+}
+h3 a{
+	font-family: monospace;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	transition: all 0.5s;
+}
+h3 a:hover{
+	background-color: white;
+	color: black;
+}
+#desc{
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-left: 5%;
+	padding: 10%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0 8px 16px 0px rgba(13, 13, 13, 0.5);
+}
