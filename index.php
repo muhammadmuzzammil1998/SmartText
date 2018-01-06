@@ -46,7 +46,7 @@
 			<input type="submit" value="Encrypt" id="encryptBTN" class="btn">
 		</form> 
 		<a href="?do=decrypt" class="btn" id="decrypt">Decrypt</a><br><a href="?do=explain" class="btn" id="explain">What is this?</a>
-		<? } else if(isset($do)) { if($do == "encrypt" && !valid()) { ?>
+		<?php } else if(isset($do)) { if($do == "encrypt" && !valid()) { ?>
 		<form id="form" action="?do=encrypt" method="POST">
 			<label for="data">Message: </label><br>
 			<textarea class="text" name="data" id="data" required><?php echo $_POST['data']; ?></textarea><br>
