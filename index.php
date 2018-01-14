@@ -115,7 +115,7 @@
 				Smart Text uses AES-complaint, RIJNDAEL 256 bit encryption/decryption with php_mcrypt with CBC. Its open source and can be adjusted as needed.
 			</h3>
 			<h2>The 2-Passwords system</h2>
-			<h3 id="desc">Dual password protection makes it even harder to brute force a way in to the encryption so that the message is secure and can be read by only those with both passwords. Also, your real passwords aren't used directly, there hashes are.</h3>
+			<h3 id="desc">Dual password protection makes it even harder to brute force a way in to the encryption so that the message is secure and can be read by only those with both passwords. Also, your real passwords aren't used directly, their hashes are.</h3>
 			<h2>Decryption</h2>
 			<h3 id="desc">You can decrypt the message using this link <a href="http://muzzammil.xyz/smarttext/?do=decrypt">http://muzzammil.xyz/smarttext/?do=decrypt</a> and pasting the message there.</h3>
 		</div>
