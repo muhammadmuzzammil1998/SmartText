@@ -18,7 +18,7 @@
  * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
  * DEALINGS IN THE SOFTWARE.
 -->
-<?php include("algo.php"); ?>
+<?php include("algo.php"); error_reporting(0); ?>
 <!DOCTYPE html>
 <html>
 <head>
