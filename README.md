@@ -5,7 +5,7 @@ Smart Text uses AES-complaint, RIJNDAEL 256 bit encryption/decryption with php_m
 ## The 2-Passwords system
 Dual password protection makes it even harder to brute force a way in to the encryption so that the message is secure and can be read by only those with both passwords. Also, your real passwords aren't used directly, there hashes are.
 ## Decryption
-You can decrypt the message using this link http://muzzammil.xyz/smarttext/?do=decrypt and pasting the message there.
+You can decrypt the message using this link https://git.muzzammil.xyz/smarttext/?do=decrypt and pasting the message there.
 
 
 ## Example
