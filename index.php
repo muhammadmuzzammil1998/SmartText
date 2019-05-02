@@ -169,8 +169,8 @@ error_reporting(0);
         directly, their hashes are.</h3>
       <h2>Decryption</h2>
       <h3 id="desc">You can decrypt the message using this link <a
-          href="http://muzzammil.xyz/smarttext/?do=decrypt">http://muzzammil.xyz/smarttext/?do=decrypt</a> and pasting
-        the message there.</h3>
+          href="https://git.muzzammil.xyz/smarttext/?do=decrypt">https://git.muzzammil.xyz/smarttext/?do=decrypt</a> and
+        pasting the message there.</h3>
     </div>
     <a href="./" class="btn" id="goBack">Go back</a>
     <?php }}?>
