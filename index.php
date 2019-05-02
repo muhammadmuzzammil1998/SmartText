@@ -171,6 +171,10 @@ error_reporting(0);
       <h3 id="desc">You can decrypt the message using this link <a
           href="https://git.muzzammil.xyz/smarttext/?do=decrypt">https://git.muzzammil.xyz/smarttext/?do=decrypt</a> and
         pasting the message there.</h3>
+      <h2>Notice</h2>
+      <h3 id="desc">The mcrypt extension has been deprecated in php7.2 because apparently it has been an <a
+          href="https://php.net/manual/en/migration71.deprecated.php">"abandonware for nearly a decade now, and was also
+          fairly complex to use."</a> I'll do my best to keep it working on my website.</h3>
     </div>
     <a href="./" class="btn" id="goBack">Go back</a>
     <?php }}?>
